@@ -4,14 +4,29 @@
 @media only screen and (max-width: 980px)
 {
     .content {
-        width: 800px;
+        width: 768px;
     }    
     
     .clearbox {
-        width: 800px;
+        width: 768px;
+    }
+    .conbox {
+        width: 768px;
+    }
+    .portbox {
+        width: 768px;
     }
     nav {
-        width: 800px;
+        width: 768px;
+        height: 95px;
+    }
+    nav a {
+        font-size: 24px;
+        padding: 20px;
+    }
+    nav h1 {
+        font size: 36px;
+        padding: 30px 20px;
     }
 }
 
@@ -19,13 +34,28 @@
 @media only screen and (max-width: 768px)
 {
     .content {
-        width: 724px;
+        width: 640px;
     }
     .clearbox {
         width: 640px;
     }
+    .conbox {
+        width: 640px;
+    }
+    .portbox {
+        width: 640px;
+    }
     nav {
         width: 640px;
+        height: 75px;
+    }
+    nav a {
+        font-size: 20px;
+        padding: 10px;
+    }
+    nav h1 {
+        font size: 24px;
+        padding: 12px 24px;
     }
 }
 }
@@ -34,13 +64,28 @@
 @media only screen and (max-width: 640px)
 {
     .content {
-        width: 640px;
+        width: 500px;
     }
     .clearbox {
-        width: 640px;    
+        width: 500px;    
+    }
+    .conbox {
+        width: 500px;
+    }
+    .portbox {
+        width: 500px;
     }
     nav {
-        width: 640px;
+        width: 500px;
+        height: 65px;
+    }
+    nav a {
+        font-size: 18px;
+        padding: 5px;
+    }
+    nav h1 {
+        font size: 18px;
+        padding: 9px 18px;
     }
 }
 }
