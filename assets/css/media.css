@@ -1,0 +1,46 @@
+
+
+
+@media only screen and (max-width: 980px)
+{
+    .content {
+        width: 800px;
+    }    
+    
+    .clearbox {
+        width: 800px;
+    }
+    nav {
+        width: 800px;
+    }
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    .content {
+        width: 724px;
+    }
+    .clearbox {
+        width: 640px;
+    }
+    nav {
+        width: 640px;
+    }
+}
+}
+
+
+@media only screen and (max-width: 640px)
+{
+    .content {
+        width: 640px;
+    }
+    .clearbox {
+        width: 640px;    
+    }
+    nav {
+        width: 640px;
+    }
+}
+}
